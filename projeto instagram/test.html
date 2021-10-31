@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <title>Teste JS</title>
+    <script>
+      window.onresize = function() {
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var x = document.getElementById("teste");
+        if (w < 375) {
+          x.style.display = "none";
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <select id="teste">
+      <option value="">Teste</option>
+      <option value="">Teste</option>
+    </select> 
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo_Insta.css">
+        <link rel="shortcut icon" href="OIdP.ico">
+        <title>Instagram</title>
+    </head>
+    <body>
+        <div class="content">
+            <img id="celular1" src="cel1.png">
+            <img id="celular2" src="cel2.png">
+        </div>
+
+        <div class="flutuar">
+            <img id="logo_Insta" src="Logo_Insta.png" alt="Instagram">
+
+            <input id="cx1" type="text" placeholder="Telefone, nome de usuário ou email" required size="35">
+            <input id="cx2" type="password" placeholder="Senha" required size="35">
+        
+            <button id="btn1" type="submit" onclick="txt1()">Entrar</button>
+            <h3 id="ou">ou</h3>
+            <a id="facebook" href="https://pt-br.facebook.com/"><img src="logoFac.png"> Entrar com Facebook</a>
+            <h5 id="esq_senha"><a href="#" onclick="alertar_esquecido_senha()">Esqueceu a Senha?</a></h5>
+            <h4 id="conta">Não tem uma Conta? <a id="link_conta" href="#" onclick="alertar_esquecido_senha()">Cadastra-se</a></h4>
+            <h4 id="app">Obtenha o Aplicativo.</h4>
+
+            <a id="appStore" href="https://apps.apple.com/br/app/instagram/id389801252" target="_blank"><img src="AppStore.png"></a>
+            <a id="playStore" href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank"><img src="GPlay.jpg"></a>
+        </div>
+        
+        <script>
+            function alertar_esquecido_senha(){
+                alert("Desculpe! Esse campo não está disponivel no momento.");
+            }
+            function txt1(){
+                alert("Parece que você não está cadastrado.");
+            }
+        </script>
+    </body>
+</html>

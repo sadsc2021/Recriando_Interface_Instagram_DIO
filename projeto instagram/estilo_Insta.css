@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+#content{
+    display: flex;
+}
+#flutuar{
+    display: flex;
+}
+img#celular1{
+    position: absolute;
+    width: 260px;
+    height: 550px;
+    top: 7.5%;
+    left: 12%;
+}
+img#celular2{
+    position: absolute;
+    width: 260px;
+    height: 550px;
+    top: 9.5%;
+    left: 22%;
+}
+img#logo_Insta{
+    position: absolute;
+    width: 18%;
+    height: 13%;
+    top: 12%;
+    left: 61%;
+}
+input#cx1{
+    position: absolute;
+    height: 5%;
+    top: 27%;
+    left: 56%;
+}
+input#cx2{
+    position: absolute;
+    height: 5%;
+    top: 33.5%;
+    left: 56%;
+}
+button#btn1{
+    position: absolute;
+    background: rgb(140, 247, 247);
+    color: white;
+    border-color: transparent;
+    border-radius: 4px;
+    width: 27.5%;
+    height: 4.5%;
+    top: 41.5%;
+    left: 56%;
+}
+h3#ou{
+    position: absolute;
+    top: 45%;
+    left: 68.5%;
+}
+a#facebook{
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    top: 55%;
+    left: 62%;
+}
+a#facebook img{
+    width: 6%;
+    height: 6%;
+}
+h5#esq_senha a{
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    top: 60.8%;
+    left: 64.8%;
+}
+h4#conta{
+    position: absolute;
+    color: rgb(56, 55, 55);
+    top: 65%;
+    left: 58%;
+}
+h4#conta a#link_conta{
+    text-decoration: none;
+    color: rgb(88, 152, 236);
+}
+h4#app{
+    position: absolute;
+    color: rgb(56, 55, 55);
+    top: 73.5%;
+    left: 62%;
+}
+a#appStore img{
+    position: absolute;
+    border-radius: 5px;
+    width: 15%;
+    height: 6.5%;
+    top: 85%;
+    left: 53%;
+}
+a#playStore img{
+    position: absolute;
+    border-radius: 5px;
+    width: 15%;
+    height: 6.5%;
+    top: 85%;
+    left: 69.5%;
+}
